@@ -11,6 +11,7 @@ public class CalcPreferenceActivity extends PreferenceActivity{
     @Override
     protected  void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState);
+        addPreferencesFromResource(R.xml.preferences);
 
     }
 }

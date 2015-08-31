@@ -6,4 +6,12 @@
         android:key="vibrate"
         android:defaultValue="false">
     </CheckBoxPreference>
+    <ListPreference
+        android:title="Color"
+        android:summary="Color of display"
+        android:key="colors"
+        android:defaultValue="Green"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues">
+    </ListPreference>
 </PreferenceScreen>
